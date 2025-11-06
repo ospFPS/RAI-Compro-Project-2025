@@ -38,8 +38,8 @@ void setup(){
   attachInterrupt(digitalPinToInterrupt(R_ENC), R_isr, RISING);
 
   // forward direction
-  digitalWrite(L_IN1,HIGH); digitalWrite(L_IN2,LOW);
-  digitalWrite(R_IN1,HIGH); digitalWrite(R_IN2,LOW);
+  digitalWrite(L_IN1,LOW); digitalWrite(L_IN2,HIGH);
+  digitalWrite(R_IN1,LOW); digitalWrite(R_IN2,HIGH);
 }
 
 void loop(){
