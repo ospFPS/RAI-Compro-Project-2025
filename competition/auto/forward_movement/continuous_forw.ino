@@ -9,7 +9,7 @@
 #define L_ENC 2   
 #define R_ENC 3   
 
-// ===== Encoder & RPM =====
+// ===== Encoder & RPM ====
 volatile long L_pulses=0, R_pulses=0;
 const int PPR = 20;               
 const unsigned long TS_MS = 100;  
